@@ -5,154 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: black;
+      }
+      .lite-black {
+        background-color: rgb(26, 22, 22);
+      }
+    </style>
   </head>
-  <style>
-    .container3 {
-      background-color: gray;
-    }
-    .container {
-      display: flex;
-    }
-
-    .container > div {
-      padding: 5px;
-      border: 3px solid blue;
-      margin-top: 0%;
-    }
-    .flex-grow {
-      flex-grow: 1;
-    }
-
-    .container2 {
-      display: flex;
-      background-color: blue;
-    }
-
-    .container2 > div {
-      border: 3px solid blue;
-      margin: 0%;
-      flex-grow: 5;
-      max-height: fit-content;
-      max-width: fit-content;
-      padding: 0%;
-    }
-    .container3 {
-      display: flex;
-    }
-
-    .container3 > div {
-      border: 3px solid blue;
-      flex-grow: 5;
-      padding-top: 50px;
-    }
-  </style>
-
   <body>
-    <div class="main-container">
-      <div class="container">
-        <div style="color: blue">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png?20201023095457"
-            alt="C logo"
-            width="70px"
-            height="70px"
-          /><br />
-          CRYSTAL POS
-        </div>
-        <div class="flex-grow" style="background-color: orange">
-          <h1 style="color: blue">Hello World</h1>
-          <p>
-            <span style="color: red; font-size: x-large"
-              >THIS IS A TEXT MESSAGE</span
-            >
-            <span style="color: green; font-size: x-large"
-              >and this is also</span
-            >
-          </p>
-        </div>
+        <div>
+          <nav class="navbar d-flex justify-content-center">
+      <div class="container col-9 lite-black">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Project name</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Contact</a>
+          </li>
+          <div class="dropdown">
+            <a class="nav-link text-muted dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+          </div>
+          
+        </ul>
+        <form>
+          <input class="" type="Email" name="" id="" placeholder="Email" />
+          <input type="Password" name="" id="" placeholder="Password" />
+          <button class="">Sign in</button>
+        </form>
       </div>
-      <div class="container2">
-        <div>
-          <img
-            src="https://letslearnenglish.com/wp-content/uploads/2017/06/directions.jpg"
-            alt="directions"
-            width="290px"
-            height="210px"
-          />
+    <div >
+    <div class="container col-10 bg-white p-5">
+      <div class="bg-light p-5">
+        <h1>Hello, world!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+          voluptate earum rerum iure eius, provident, possimus suscipit, tenetur
+          aliquam commodi quae delectus nihil laborum saepe officia soluta
+          repellendus. Voluptates, numquam?
+        </p>
+        <button type="button" class="btn btn-primary p-2" data-bs-toggle="collapse" data-bs-target="#demo">Learn more >></button>
+        
+      </div><br>
+      <div class="row">
+        <div class="col">
+          <!-- <p class="display-6">Heading</p> -->
+          <h3>Heading</h3>
+          <small
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            voluptate earum rerum iure eius, provident, possimus suscipit,
+            tenetur aliquam commodi quae delectus nihil laborum saepe officia
+            soluta repellendus. Voluptates, numquam?
+          </small><br><br>
+          <button class="btn-outline-light text-dark ">View details >></button>
         </div>
-        <div>
-          <img
-            src="https://talktobusiness.com/wp-content/uploads/2022/04/What-Is-Web-Development.jpg"
-            alt="directions"
-            width="290px"
-            height="210px"
-          />
+        <div class="col">
+          <!-- <p class="display-6" >Heading</p> -->
+          <h3>Heading</h3>
+          <small
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            voluptate earum rerum iure eius, provident, possimus suscipit,
+            tenetur aliquam commodi quae delectus nihil laborum saepe officia
+            soluta repellendus. Voluptates, numquam?
+          </small><br><br>
+          <button class="btn-outline-light text-dark ">View details >></button>
         </div>
-        <div style="background-color: green">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png?20201023095457"
-            alt="directions"
-            width="290px"
-            height="210px"
-          />
+        <div class="col">
+          <!-- <p class="display-6">Heading</p> -->
+          <h3>Heading</h3>
+          <small
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            voluptate earum rerum iure eius, provident, possimus suscipit,
+            tenetur aliquam commodi quae delectus nihil laborum saepe officia
+            soluta repellendus. Voluptates, numquam?
+          </small><br><br>
+          <button class="btn-outline-light text-dark " >View details >></button>
+    
         </div>
-        <div>
-          <img
-            src="https://images.techopedia.com/images/uploads/network.jpg"
-            alt="directions"
-            width="290px"
-            height="210px"
-          />
-        </div>
-        <div>
-          <img
-            src="https://repository-images.githubusercontent.com/311525798/ff247c80-234c-11eb-854a-7715ece536af"
-            alt="directions"
-            width="313px"
-            height="210px"
-          />
-        </div>
-      </div>
-      <div class="container3">
-        <div style="padding-right: 100px; color: red; font-weight: bold;">
-        <div style="background-color: yellow;">Login below with user name and password</div>
-          <form>
-            <label for="" style="color: yellow;">Username:</label>
-            <input type="text" name="" id=""  />
-            <label for="" style="color: yellow;">Password::</label>
-            <input type="password" name="" id="" />
-            <button style="color: white; background-color:green ">Login</button>
-            <a href="#">Sign up</a><br /><br />
-            <div style="background-color: orange; display: block; color: white;">💡Our services</div>
-            <br />
-            <a href="#" style="background-color: yellow; display: block; ">👉Home</a><br />
-            <a href="#" style="background-color: yellow; display: block; ">👉Internet</a><br />
-            <a href="#"style="background-color: yellow; display: block; ">👉About</a><br />
-            <a href="#"style="background-color: yellow; display: block; ">👉Contact</a><br />
-            <a href="#"style="background-color: yellow; display: block; ">👉Others</a><br /><br />
-          </form>
-        </div>
-        <div>
-          <h1 style="font-size: 60px; color: white;">
-            Welcome to the New World
-          </h1>
-
-          <span style="color: yellow;">©️ Vidhya sri</span>
-          <p style="color: yellow;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus dignissimos veritatis corrupti repellat aspernatur,
-            deleniti et rerum explicabo doloribus, ullam qui perferendis iste
-            tempora, amet dolore accusantium repudiandae atque vero. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Enim ut, atque, animi
-            porro odit illum officiis, doloremque magni sit neque dolorem veniam
-            voluptate. Aut porro nihil quaerat culpa sunt alias? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Placeat adipisci quae
-            incidunt accusamus. Labore nihil ducimus inventore qui tempore
-            commodi! Deleniti, hic. Nemo, culpa vel alias consectetur dicta
-            architecto unde?
-          </p>
-        </div>
-      </div>
+        
+      </div><br>
+      <hr>
+    <footer>
+    ©️Company 2012
+    </footer>
+  </div>
+</nav>
     </div>
+
   </body>
 </html>
